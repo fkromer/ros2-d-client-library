@@ -9,9 +9,11 @@ Functional requirements:
 
 Non-functional requirements:
 
+* compiler: LDC (most platforms and architectures supported) [D Compilers](https://wiki.dlang.org/Compilers)
 * integration of tool based static code analysis into build tool (other client libraries aim at integration of tools extensively)
   * C++ client library reference: integration of CppCheck (common code flaw checking) into Ament (non-/CMake based) built environment for C++ client library [ament_cppcheck](https://github.com/ament/ament_lint/tree/master/ament_cppcheck) / [ament_cmake_cppcheck](https://github.com/ament/ament_lint/tree/master/ament_cmake_cppcheck)
   * C++ client library reference: integration of CppLint and clang format (style guide checking) into Ament (non-/CMake based) build environment for C++ client library [ament_cpplint](https://github.com/ament/ament_lint/tree/master/ament_cpplint) / [ament_cmake_cpplint](https://github.com/ament/ament_lint/tree/master/ament_cmake_cpplint) / [ament_clang_format](https://github.com/ament/ament_lint/tree/master/ament_clang_format)
+  * D: [D-Scanner](https://github.com/dlang-community/D-Scanner)
 * design by contract (C++ does not support this but will probably support it if ROS2 begins to support C++17)
 * unit tests (other client libraries aim at extensive unit testing as well)
   * C++ client library reference: [rclcpp/test](https://github.com/ros2/rclcpp/tree/master/rclcpp/test)

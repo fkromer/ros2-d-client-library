@@ -9,7 +9,7 @@ Functional requirements:
 
 Non-functional requirements:
 
-* compiler: LDC (most platforms and architectures supported) [D Compilers](https://wiki.dlang.org/Compilers)
+* compiler: [LDC](https://github.com/ldc-developers/ldc) ([D compiler comparison](https://wiki.dlang.org/Compilers): most platforms and architectures supported)
 * integration of tool based static code analysis into build tool (other client libraries aim at integration of tools extensively)
   * C++ client library reference: integration of CppCheck (common code flaw checking) into Ament (non-/CMake based) built environment for C++ client library [ament_cppcheck](https://github.com/ament/ament_lint/tree/master/ament_cppcheck) / [ament_cmake_cppcheck](https://github.com/ament/ament_lint/tree/master/ament_cmake_cppcheck)
   * C++ client library reference: integration of CppLint and clang format (style guide checking) into Ament (non-/CMake based) build environment for C++ client library [ament_cpplint](https://github.com/ament/ament_lint/tree/master/ament_cpplint) / [ament_cmake_cpplint](https://github.com/ament/ament_lint/tree/master/ament_cmake_cpplint) / [ament_clang_format](https://github.com/ament/ament_lint/tree/master/ament_clang_format)

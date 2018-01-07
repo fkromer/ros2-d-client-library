@@ -2,6 +2,8 @@ Functional requirements:
 
 * functionality and API equivalent to ROS2 C++ client library (C++ client library has most advanced feature set right now)
   * Reference - C++ client library: [rclcpp](https://github.com/ros2/rclcpp)
+* functionality equivalent to ROS2 C++ client library (C++ client library user code depends on idl generator)
+  * Reference - C++ idl generator: [rosidl_generator_cpp](https://github.com/ros2/rosidl/tree/master/rosidl_generator_cpp)
 
 Non-functional requirements:
 
@@ -29,6 +31,8 @@ Non-functional requirements:
 # ROS2 Architecture
 
 How a client library (here: C++) fits into the big picture.
+
+![](diagrams/ros2_hlayer_pattern.png)
 
 ![](diagrams/ros2_hour_glass_pattern_generic.png)
 

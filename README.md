@@ -4,6 +4,8 @@ Functional requirements:
   * Reference - C++ client library: [rclcpp](https://github.com/ros2/rclcpp)
 * functionality equivalent to ROS2 C++ client library (C++ client library user code depends on idl generator)
   * Reference - C++ idl generator: [rosidl_generator_cpp](https://github.com/ros2/rosidl/tree/master/rosidl_generator_cpp)
+* functionality to support building D client library packages
+  * Reference - C++ ament build integration: [ament_cmake](https://github.com/ament/ament_cmake)
 
 Non-functional requirements:
 
@@ -44,7 +46,5 @@ How a client library (here: C++) fits into the big picture.
 ![](diagrams/ros2_hour_glass_pattern_generic.png)
 
 ![](diagrams/ros2_hour_glass_pattern_cpp.png)
-
-![](diagrams/ros2_layer_pattern.png)
 
 [ROS-I Consortium 2017 Presentation: Looking forward to ROS2](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/598be660f9a61ea2b0da7bac/1502340717919/4_ROS-I+AP+Consortium+Presentation+ROS2+Tully.pdf)

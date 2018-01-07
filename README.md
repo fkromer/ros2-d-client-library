@@ -32,7 +32,7 @@ Non-functional requirements:
 
 How a client library (here: C++) fits into the big picture.
 
-![](diagrams/ros2_hlayer_pattern.png)
+![](diagrams/ros2_layer_pattern.png)
 
 ![](diagrams/ros2_hour_glass_pattern_generic.png)
 
